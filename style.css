@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#64c8e6, #e591c8);
+  text-align: center;
+}
+header h1 {
+  color: rgba(231, 217, 217, 0.8);
+  font-family: "Sigmar", cursive;
+  font-size: 48px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px black;
+  margin: 20px;
+  padding: 7px;
+}
+#container {
+  background: linear-gradient(rgb(0, 149, 255), rgb(126, 42, 165));
+  width: 90rem;
+  margin: auto;
+}
+div.box img {
+  width: 20rem;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 20px;
+  float: left;
+  display: inline-block;
+}
+.box {
+  display: inline-block;
+  width: 70rem;
+  border: 5px solid transparent;
+  color: bisque;
+  background-color: rgba(81, 201, 79, 0.7);
+  font-family: "Mukta", sans-serif;
+  font-size: 15px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 5px 5px rgb(126, 42, 165);
+  cursor: pointer;
+}
+.box:hover {
+  opacity: 0.9;
+}
+div > h2 {
+  font-size: 2rem;
+  margin: 10px;
+}
+.button {
+  float: right;
+  padding: 10px;
+  font-size: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  color: aliceblue;
+  background-color: rgba(78, 108, 128, 0.5);
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button:hover{
+    background-color:coral;
+    color:darkblue
+    
+}
+
